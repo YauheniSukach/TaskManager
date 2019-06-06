@@ -1,0 +1,28 @@
+.list-users {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 48px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 180px;
+    max-height: 150px;
+    overflow: auto;
+
+    &__user {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 1px solid lightgrey;
+      border-radius: 10px;
+      padding: 5px 0;
+      width: 100%;
+      cursor: pointer;
+
+      &:hover {
+        background-color: white;
+      }
+    }
+}

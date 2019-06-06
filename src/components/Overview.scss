@@ -1,0 +1,17 @@
+.overview {
+    display: flex;
+    font-size: 50px;
+    font-weight: 500;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+    &__title {
+        padding: 20px;
+    }
+
+    &__radar {
+        width: 1000px;
+    }
+}

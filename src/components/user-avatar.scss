@@ -1,0 +1,17 @@
+.user-avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__user_position {
+        border-radius: 50%;
+        background-color: gray;
+        color: white;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+}
