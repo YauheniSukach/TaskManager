@@ -11,7 +11,7 @@
     &__menu {
         display: flex;
         flex-direction: column;
-        margin-bottom: 100px;
+        width: 100%;
     }
 
     &__button {
@@ -29,11 +29,11 @@
         transition: all 100ms ease-in-out;
         background: #5f4c7d;
         text-decoration: none;
-    
+
         &:hover {
             background: #ceb1fd;
         }
-    
+
         &:focus {
             outline: 0;
         }
