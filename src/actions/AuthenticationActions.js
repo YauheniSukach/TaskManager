@@ -11,7 +11,7 @@ const AuthenticationActions = {
           return res.data.error;
         }
       })
-      .then(() => redirect('tasks'))
+      .then(() => redirect('dashboard'))
       .catch((err) => console.log(err));
   },
 };

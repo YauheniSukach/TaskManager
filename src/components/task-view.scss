@@ -22,7 +22,7 @@
         justify-content: center;
     }
 
-    
+
     &__button {
         border: none;
         border-bottom: 1px solid grey;
@@ -38,13 +38,13 @@
         font-weight: 500;
         background-color: white;
         text-decoration: none;
-    
+
         &:hover {
             opacity: .9;
             transition: all 100ms ease;
             background-color: lightgrey;
         }
-    
+
         &:focus {
             outline: 0;
         }
@@ -69,18 +69,18 @@
 
     &__overview {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
     &__menu {
-        top: 380px;
+        top: 670px;
     }
 
     &__buttons {
         display: flex;
         flex-direction: row;
     }
-    
+
     &__edit {
         display: flex;
         flex-direction: row;

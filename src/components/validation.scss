@@ -1,0 +1,36 @@
+.confirm-message {
+    border-radius: 40px;
+    background-color: #3ac569;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 50px;
+    color: white;
+}
+
+.validate-fields {
+    border-radius: 40px;
+    background-color: pink;
+    border: 1px solid mediumaquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 50px;
+    color: red;
+}
+
+.message-icon {
+    &__cross {
+        font-size: 30px;
+        color: white;
+        margin: 0 25px;
+        cursor: pointer;
+        color: rgba(0,0,0,0.6);
+    }
+}
