@@ -57,5 +57,9 @@ export default {
 
   deleteComment(userId) {
     return axios.delete(`${apiPrefix}/comments/all-comments/${uesrId}`);
+  },
+
+  upload(image) {
+    return axios.post(`${apiPrefix}/images/upload`, image);
   }
 }

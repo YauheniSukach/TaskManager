@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Dropdown from "react-dropdown";
 import UserActions from "../actions/UsersActions.js";
+import ImagesActions from "../actions/ImagesActions.js";
 import ColorPicker from "./ColorPicker.jsx";
 import "./TaskEditor.scss";
 
 export default class TaskEditor extends Component {
   state = {
+    image: null,
     free: false,
     name: "",
     title: "",
@@ -123,6 +125,16 @@ export default class TaskEditor extends Component {
     this.setState({ estimate: event.value });
   };
 
+  onImageChange = (e) => {
+    this.setState({ image: e.target.value });
+  }
+
+  upload = () => {
+    const { image } = this.state;
+    console.log('IMAGE', image);
+    ImagesActions.upload(image);
+  };
+
   render() {
     const typeOfTask = ["Bug", "Improvement", "Feature", "Code refactoring"];
     const estimate = [
@@ -190,6 +202,8 @@ export default class TaskEditor extends Component {
             onChange={this.handleUserChange}
             placeholder="Assign to"
           />
+          <input value={this.state.image} onChange={this.onImageChange} id="file-input" type="file" name="name" />
+          <button onClick={this.upload}>Upload image</button>
         </div>
         <div className="task-editor__footer">
           <div className="checkbox-field">
