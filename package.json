@@ -33,7 +33,7 @@
     "jwt-decode": "2.2.0",
     "keymirror": "0.1.1",
     "less": "2.6.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.21",
     "moment": "2.23.0",
     "mongodb": "3.1.6",
     "mongoose": "5.2.15",
