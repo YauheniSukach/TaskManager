@@ -18,7 +18,7 @@
     "bcrypt": "^1.0.2",
     "bluebird": "3.5.0",
     "body-parser": "1.17.2",
-    "chart.js": "2.7.3",
+    "chart.js": "2.9.4",
     "classnames": "2.2.3",
     "cloudinary": "^1.14.0",
     "cookie-parser": "1.4.3",
