@@ -29,7 +29,7 @@
     "flux": "2.1.1",
     "fs": "0.0.1-security",
     "jquery": "*",
-    "jsonwebtoken": "7.4.2",
+    "jsonwebtoken": "9.0.0",
     "jwt-decode": "2.2.0",
     "keymirror": "0.1.1",
     "less": "2.6.0",
